@@ -1,0 +1,5 @@
+defaults:
+  - scope:
+      path: "gpx"
+    values:
+      gpx: true
