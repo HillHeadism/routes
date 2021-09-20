@@ -1,0 +1,7 @@
+===
+===
+
+{% assign gpx_files = site.static_files | where: "gpx", true %}
+{% for gpx in gpx_files %}
+  {{ gpx.path }}
+{% endfor %}
